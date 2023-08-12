@@ -12,7 +12,7 @@
                 "EtherJS",
             ],
             "description": "Embark on your crypto voyage with BlockSpirit - acquire knowledge, trade, and analyze.",
-            "author": "Anas K , Manjri C,Arif S, Shahaba S,Anamta K",
+            "author": "Anas K, Manjri C, Arif S, Shahaba S, Anamta K",
             "link": "https://github.com/CODEX108/FINAL-BLOCKSPIRIT/tree/main",
             "imgsrc":"https://github.com/CODEX108/FINAL-BLOCKSPIRIT/assets/82377810/8615ccb4-5230-4f4b-b866-40e3521d446d",
             "year":"2023"
