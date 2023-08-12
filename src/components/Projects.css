@@ -1,0 +1,142 @@
+.tut-heading {
+    text-align: center;
+    padding: 4rem 0 2ren 0;
+    background-color: #1c232b;
+    font-weight: 800;
+  }
+  
+  .project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    color: white;
+    padding-bottom: 5rem;
+    background-color: #1c232b;
+  }
+  
+  .tut-card {
+    position: relative;
+    padding: 1.2rem 1rem;
+    background: rgba(39, 51, 89, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: none;
+    overflow: hidden; /* Hide the overflowing content */
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-45deg, transparent 49%, rgba(41, 52, 65, 1) 50%);
+        transform-origin: top right;
+        transform: rotate(-45deg);
+        z-index: -1; /* Place the pseudo-element behind the content */
+    }
+    .badge {
+      &.pink{
+        background: #8d74ec;
+      }
+      &.diagonal{
+      white-space:wrap;
+      position: relative;
+      padding: 5px 100px;
+      min-width: 30%;
+      transform: rotate(-35deg) translate(-37%, 0);
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      top: -20px;
+      box-sizing: border-box;
+      }
+    }
+  }
+  
+  .tut-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .tut-card:hover {
+    color: white;
+    box-shadow: 0 5px 10px #2e3846;
+  }
+
+  .tut-title {
+    color: #ffff;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight:500;
+  }
+  
+  .tut-details p {
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight:100;
+    text-align: center;
+  }
+  
+  .tut-heading {
+    color: #eee;
+    font-size: 3rem;  
+    text-align: center;
+  }
+  
+  a{
+    color:white;
+    text-decoration:none;
+  }
+
+  .tech{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+  }
+
+  .pill {
+    font-size: 12px;
+font-size-adjust: 0.5;
+    pointer-events: none;
+    border: 1px solid #E2218e;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width:20%;
+    justify-content: center;
+    padding: 0.1rem 0;
+    border-radius: 100px;
+  }
+
+
+  @media screen and (max-width: 740px) {
+    .project-container {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+      grid-gap: 40px;
+    }
+  }
+  
+  .tut-btn {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+  
+  .tut-btn {
+      background: #5631ea;
+      border-radius: 10px;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border:none;
+  }
+  
+  
+  
