@@ -15,6 +15,7 @@
             "author": "Anas K , Manjri C,Arif S, Shahaba S,Anamta K",
             "link": "https://github.com/CODEX108/FINAL-BLOCKSPIRIT/tree/main",
             "imgsrc":"https://github.com/CODEX108/FINAL-BLOCKSPIRIT/assets/82377810/8615ccb4-5230-4f4b-b866-40e3521d446d",
+            "year":"2023"
         },
         {
             "id": 2,
@@ -28,7 +29,8 @@
             "description": "A fitness tracking mobile app to help users maintain a healthy lifestyle by tracking workouts and setting fitness goals.",
             "author": "Alex Turner",
             "link": "https://fitpalapp.com/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
         {
             "id": 3,
@@ -43,7 +45,8 @@
             "description": "A backend system for securely storing and managing sensitive user data with authentication and encryption.",
             "author": "Emily Chen",
             "link": "https://securevaultapi.io/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
         {
             "id": 4,
@@ -57,7 +60,8 @@
             "description": "An adventurous space exploration game where players embark on a quest to discover and conquer distant galaxies.",
             "author": "Michael Ramirez",
             "link": "https://galaxyquestgame.com/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
         {
             "id": 5,
@@ -71,7 +75,8 @@
             "description": "A web application that connects gardening enthusiasts, providing resources, plant care tips, and a platform to showcase their gardens.",
             "author": "Sophia Miller",
             "link": "https://greenscapeapp.net/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
         {
             "id": 6,
@@ -85,7 +90,8 @@
             "description": "An AI-powered application that analyzes medical images to assist doctors in diagnosing diseases and conditions accurately.",
             "author": "David Nguyen",
             "link": "https://healthai-ml.com/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
         {
             "id": 7,
@@ -99,7 +105,8 @@
             "description": "An online platform where artists can showcase their artwork and connect with art enthusiasts.",
             "author": "Sophie Williams",
             "link": "https://artgallerysite.com/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
         {
             "id": 8,
@@ -114,7 +121,8 @@
             "description": "A platform for users to store, share, and discover their favorite recipes online.",
             "author": "James Smith",
             "link": "https://recipeboxapp.com/",
-            "imgsrc":"https://shorturl.at/BFOUW"
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
         },
     ]
 

@@ -77,9 +77,17 @@
   .tut-details p {
     padding-bottom: 1rem;
     font-size: 0.9rem;
-    font-weight:100;
+    font-weight: 100;
     text-align: center;
-  }
+    display: -webkit-box; /* Set as flexible box */
+    -webkit-box-orient: vertical; /* Set vertical orientation */
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis (...) at the end */
+    max-width: 100%; /* Set a maximum width */
+}
+
+
   
   .tut-heading {
     color: #eee;
@@ -102,7 +110,7 @@
 
   .pill {
     font-size: 12px;
-font-size-adjust: 0.5;
+    font-size-adjust: 0.5;
     pointer-events: none;
     border: 1px solid #E2218e;
     color: white;
@@ -114,6 +122,21 @@ font-size-adjust: 0.5;
     border-radius: 100px;
   }
 
+  .pill2 {
+    font-size: 12px;
+    font-size-adjust: 0.5;
+    font-weight: 700;
+    pointer-events: none;
+    background-color:#adbadd;
+    border: 1px solid royal;
+    color: #2e3846;
+    text-decoration: none;
+    display: flex;
+    width:20%;
+    justify-content: center;
+    padding: 0.1rem 0;
+    border-radius: 100px;
+  }
 
   @media screen and (max-width: 740px) {
     .project-container {

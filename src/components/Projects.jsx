@@ -11,6 +11,7 @@ const Projects = (props) => {
     <div className='tut-card'>
     <div className="diagonal badge pink">{props.type}</div>
       <h2 className='tut-title'>{props.project_name}</h2>
+      <p className="pill2">{props.year}</p>
       <img src={props.imgsrc} alt="image-github repo" />
       <span className="tech">
         {props.tech_stack.map((tech, index) => (
