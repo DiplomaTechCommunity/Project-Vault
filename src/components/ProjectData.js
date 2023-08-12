@@ -50,17 +50,19 @@
         },
         {
             "id": 4,
-            "type": "game",
-            "project_name": "GalaxyQuest",
+            "type": "full stack",
+            "project_name": "Thrifty E-Shopping Assistant",
             "tech_stack": [
-                "Unity" ,
-                "C#" ,
-                "Blender",
+                "Angular",
+                "Tailwind CSS",
+                "Firebase",
+                "Linux Server",
+                "Apache"
             ],
-            "description": "An adventurous space exploration game where players embark on a quest to discover and conquer distant galaxies.",
-            "author": "Michael Ramirez",
-            "link": "https://galaxyquestgame.com/",
-            "imgsrc":"https://shorturl.at/BFOUW",
+            "description": "Thrifty: Simplifying online shopping with cross-site search, AI product suggestions, and price change alerts.",
+            "author": "Naufil Asar",
+            "link": "https://github.com/NaufilAsar/gpm-major-project",
+            "imgsrc":"src/images/Thrifty-Logo.PNG",
             "year":"2023"
         },
         {
