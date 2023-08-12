@@ -124,6 +124,19 @@
             "imgsrc":"https://shorturl.at/BFOUW",
             "year":"2023"
         },
+        {
+            "id": 9,
+            "type": "game",
+            "project_name": "Animal on Vehicle",
+            "tech_stack": [
+                "Python"
+            ],
+            "description": "Animal On Vehicle – A Racer Game is a Panda3D game designed using different modules and frameworks of Python",
+            "author": "Jayesh Wani, Harsh Kanse, Tushar Khandare, Harsh Pol, Eshaan Dhuru",
+            "link": "https://github.com/Jayesh421/Animal_On_Vehicle",
+            "imgsrc":"https://shorturl.at/BFOUW",
+            "year":"2023"
+        },
     ]
 
 
