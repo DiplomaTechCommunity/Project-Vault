@@ -1,12 +1,11 @@
-
-import './App.css'
-
+import './App.css';
+import Show from './components/Show';
 function App() {
 
 
   return (
     <>
-      <h1>DTC ARCHIVE</h1>
+    <Show/>
     </>
   )
 }
