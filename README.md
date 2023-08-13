@@ -10,18 +10,18 @@ To contribute your project, follow these steps:
 
 ```js
 {
-    "id": <add your project's unique identifier>,
-    "type": <select a project type, e.g., Full stack, Backend, Web>,
-    "project_name": <enter your project's name>,
+    "id": "<add your project's unique identifier>",
+    "type": "<select a project type, e.g., Full stack, Backend, Web>",
+    "project_name": "<enter your project's name>",
     "tech_stack": [
-       <list the technologies and frameworks used, e.g., "React", "HTML">
+       "<list the technologies and frameworks used, e.g., 'React', 'HTML'>"
     ],
-    "description": <provide a concise and descriptive 1-2 line overview>,
-    "author": <mention the team members' names and surname initials>,
-    "link": <insert the link to your well-maintained GitHub repository>,
-    "imgsrc": <use a URL shortener for the project image/preview link>,
-    "year": <mention the year the project was created>,
-    "majorProject" : <true || false>
+    "description": "<provide a concise and descriptive 1-2 line overview>",
+    "author": "<mention the team members' names and surname initials>",
+    "link": "<insert the link to your well-maintained GitHub repository>",
+    "imgsrc": "<use a URL shortener for the project image/preview link>",
+    "year": "<mention the year the project was created>",
+    "majorProject" : "<true || false>"
 },
 ```
 
