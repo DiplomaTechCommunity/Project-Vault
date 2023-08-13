@@ -1,21 +1,28 @@
-### Adding projects in the repo :
-- In order to add your project navigate to `src > components folder > ProjectData.js`
+# Project-Vault
 
-- You'll see some data in the form of key value pairs
-  
+## How to Add Your Project to the Repository
+
+To contribute your project, follow these steps:
+
+1. Navigate to the `src > components` folder and locate `ProjectData.js`.
+
+2. Inside `ProjectData.js`, you'll find a set of key-value pairs representing project information.
+
 ```js
-        {
-            "id": <add the corresponding number>,
-            "type": <select a type as in Full stack | backend | Web |>,
-            "project_name": <Name of your project>,
-            "tech_stack": [
-               <Add strings which contains the name of any lib or framework>
-            ex: "React", "HTML"
-            ],
-            "description": <This is crucial make sure its short, crisp, and descriptive ideally 1-2 lines>,
-            "author": <name of the team members Name and the Surname Initials >,
-            "link": <Link of the GitHub repo make sure the repo is well maintained>,
-            "imgsrc": <a link of the image/insight of your project> | Use a URL shortener and then insert the link >
-            "year":<Year in which the project was created>
-        },
+{
+    "id": <add your project's unique identifier>,
+    "type": <select a project type, e.g., Full stack, Backend, Web>,
+    "project_name": <enter your project's name>,
+    "tech_stack": [
+       <list the technologies and frameworks used, e.g., "React", "HTML">
+    ],
+    "description": <provide a concise and descriptive 1-2 line overview>,
+    "author": <mention the team members' names and surname initials>,
+    "link": <insert the link to your well-maintained GitHub repository>,
+    "imgsrc": <use a URL shortener for the project image/preview link>,
+    "year": <mention the year the project was created>,
+    "majorProject" : <true || false>
+},
 ```
+
+Make sure to fill in the corresponding details accurately for your project as this will help maintain consistency and organization within the repository.
