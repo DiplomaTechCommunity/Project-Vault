@@ -134,7 +134,7 @@
             "description": "Animal On Vehicle – A Racer Game is a Panda3D game designed using different modules and frameworks of Python",
             "author": "Jayesh Wani, Harsh Kanse, Tushar Khandare, Harsh Pol, Eshaan Dhuru",
             "link": "https://github.com/Jayesh421/Animal_On_Vehicle",
-            "imgsrc":"https://shorturl.at/BFOUW",
+            "imgsrc":"https://tinyurl.com/327y5u3r",
             "year":"2023"
         },
     ]
