@@ -62,7 +62,7 @@
             "description": "Thrifty: Simplifying online shopping with cross-site search, AI product suggestions, and price change alerts.",
             "author": "Naufil Asar",
             "link": "https://github.com/NaufilAsar/gpm-major-project",
-            "imgsrc":"src/images/Thrifty-Logo.PNG",
+            "imgsrc":"https://shorturl.at/koqHW",
             "year":"2023"
         },
         {
