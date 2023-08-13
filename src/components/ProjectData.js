@@ -15,22 +15,24 @@
             "author": "Anas K, Manjri C, Arif S, Shahaba S, Anamta K",
             "link": "https://github.com/CODEX108/FINAL-BLOCKSPIRIT/tree/main",
             "imgsrc":"https://github.com/CODEX108/FINAL-BLOCKSPIRIT/assets/82377810/8615ccb4-5230-4f4b-b866-40e3521d446d",
-            "year":"2023"
+            "year":"2023",
+            "majorProject": true,
         },
         {
             "id": 2,
-            "type": "mobile app",
-            "project_name": "FitPal",
+            "type": "Full Stack Web App",
+            "project_name": "FitTrack",
             "tech_stack": [
-                "Flutter" ,
-                "Firebase" ,
-                "Dart",
+                "Javascript" ,
+                "NodeJS & Express",
+                 "MongoDB"
             ],
-            "description": "A fitness tracking mobile app to help users maintain a healthy lifestyle by tracking workouts and setting fitness goals.",
-            "author": "Alex Turner",
-            "link": "https://fitpalapp.com/",
-            "imgsrc":"https://shorturl.at/BFOUW",
-            "year":"2023"
+            "description": "A fitness tracking web app to help users maintain a healthy lifestyle by tracking workouts and setting fitness goals.",
+            "author": "Alfiya Siddique",
+            "link": "https://exercise-tracker-dp6p.onrender.com/",
+            "imgsrc":"https://raw.githubusercontent.com/AlfiyaSiddique/exercise-tracker/main/1.jpg",
+            "year":"2022",
+            "majorProject" : false
         },
         {
             "id": 3,
@@ -46,7 +48,8 @@
             "author": "Emily Chen",
             "link": "https://securevaultapi.io/",
             "imgsrc":"https://shorturl.at/BFOUW",
-            "year":"2023"
+            "year":"2023",
+            "majorProject" : false
         },
         {
             "id": 4,
@@ -63,7 +66,8 @@
             "author": "Naufil Asar",
             "link": "https://github.com/NaufilAsar/gpm-major-project",
             "imgsrc":"https://shorturl.at/koqHW",
-            "year":"2023"
+            "year":"2023",
+            "majorProject" : false
         },
         {
             "id": 5,
@@ -78,7 +82,8 @@
             "author": "Sophia Miller",
             "link": "https://greenscapeapp.net/",
             "imgsrc":"https://shorturl.at/BFOUW",
-            "year":"2023"
+            "year":"2023",
+            "majorProject" : false
         },
         {
             "id": 6,
@@ -93,7 +98,8 @@
             "author": "David Nguyen",
             "link": "https://healthai-ml.com/",
             "imgsrc":"https://shorturl.at/BFOUW",
-            "year":"2023"
+            "year":"2023",
+            "majorProject" : false
         },
         {
             "id": 7,
@@ -108,7 +114,8 @@
             "author": "Sophie Williams",
             "link": "https://artgallerysite.com/",
             "imgsrc":"https://shorturl.at/BFOUW",
-            "year":"2023"
+            "year":"2023",
+            "majorProject" : false
         },
         {
             "id": 8,
@@ -124,8 +131,35 @@
             "author": "James Smith",
             "link": "https://recipeboxapp.com/",
             "imgsrc":"https://shorturl.at/BFOUW",
-            "year":"2023"
+            "year":"2023",
+            "majorProject": false
         },
+        {
+            "id": 9,
+            "type": "Web app",
+            "project_name": "Bidding system",
+            "tech_stack": ["Php", "Html,css, jQuery"],
+            "description":
+              "An auction system where users can bid and buy property, the highest bidder wins the auction and gets the property ,with location, price and all filters",
+            "author": "Anurag Mauryq",
+            "link": "http://bidbuy.tech/",
+            "imgsrc": "https://shorturl.at/efryW",
+            "year": "2023",
+            "majorProject": true
+          },
+          {
+            "id": 10,
+            "type": "Web Application",
+            "project_name": "Modernvate",
+            "tech_stack": ["React", "Firebase", "Javascript", "Tailwind CSS"],
+            "description":
+              "An online platform for students, industrialists, institutes to provide and get economical, resource, guidance support  to new/ strong startup or project ideas so that it can sustain in business world.",
+            "author": "Haresh, Manas, Tanvi, Foram, Harshada, Suman, Shravani",
+            "link": "https://hareshkurade.me/Dashboard/",
+            "imgsrc": "https://shorturl.at/BFOUW",
+            "year": "2023",
+            "majorProject": true
+          },
     ]
 
 
