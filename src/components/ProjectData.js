@@ -158,6 +158,19 @@
             "year": "2023",
             "majorProject": true
           },
+          {
+            "id": 11,
+            "type": "Full Stack Web Application",
+            "project_name": "Scattred Plot",
+            "tech_stack": ["Javascript", "HTML & CSS", "D3.js"],
+            "description":
+              "",
+            "author": "Alfiya Siddique",
+            "link": "https://alfiyasiddique.github.io/D3-Scattered-Plot/",
+            "imgsrc": "https://shorturl.at/BFOUW",
+            "year": "2022",
+            "majorProject": false 
+          }
     ]
 
 
