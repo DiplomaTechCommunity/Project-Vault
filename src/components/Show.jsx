@@ -5,7 +5,18 @@ import { useState } from 'react';
 
 const Show = () => {
   const [searchQuery, setSearchQuery] = useState('');
-  const filteredProjects = ProjectData.filter(project => project.project_name.toLowerCase().includes(searchQuery.toLowerCase()));
+  const keys = ['project_name','description','tech_stack'];
+
+  const filteredProjects = ProjectData.filter((item) =>
+  keys.some((key) =>
+      Array.isArray(item[key]) &&
+      item[key].some((data) => data.toLowerCase().includes(searchQuery.toLowerCase()))
+  )
+);
+
+
+
+
   return (
     <div className='tut-container'>
       <div className='tut-heading' >
@@ -27,8 +38,8 @@ const Show = () => {
       </div>
 
       <div className='project-container'>
-        {filteredProjects.map(project => {
-          return (<Projects
+      {filteredProjects.map((project) => (
+          <Projects
             key={project.id}
             imgsrc={project.imgsrc}
             type={project.type}
@@ -38,21 +49,8 @@ const Show = () => {
             description={project.description}
             link={project.link}
             majorProject={project.majorProject}
-          />)
-        })}
-        {/* {ProjectData.map((val, ind) => {
-          return (<Projects
-            key={ind}
-            imgsrc={val.imgsrc}
-            type={val.type}
-            year={val.year}
-            project_name={val.project_name}
-            tech_stack={val.tech_stack}
-            description={val.description}
-            link={val.link}
-            majorProject={val.majorProject}
-          />)
-        })} */}
+          />
+        ))}
       </div>
     </div>
   )
