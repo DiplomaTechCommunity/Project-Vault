@@ -11,8 +11,8 @@
                 "Tailwind" ,
                 "EtherJS",
             ],
-            "description": "Begin your crypto journey with Blockspirit,learn , trade , and analyze.",
-            "author": "Anas K , Manjri C,Arif S, Shahaba S,Anamta K",
+            "description": "Embark on your crypto voyage with BlockSpirit - acquire knowledge, trade, and analyze.",
+            "author": "Anas K, Manjri C, Arif S, Shahaba S, Anamta K",
             "link": "https://github.com/CODEX108/FINAL-BLOCKSPIRIT/tree/main",
             "imgsrc":"https://github.com/CODEX108/FINAL-BLOCKSPIRIT/assets/82377810/8615ccb4-5230-4f4b-b866-40e3521d446d",
             "year":"2023",
@@ -53,17 +53,19 @@
         },
         {
             "id": 4,
-            "type": "game",
-            "project_name": "GalaxyQuest",
+            "type": "full stack",
+            "project_name": "Thrifty E-Shopping Assistant",
             "tech_stack": [
-                "Unity" ,
-                "C#" ,
-                "Blender",
+                "Angular",
+                "Tailwind CSS",
+                "Firebase",
+                "Linux Server",
+                "Apache"
             ],
-            "description": "An adventurous space exploration game where players embark on a quest to discover and conquer distant galaxies.",
-            "author": "Michael Ramirez",
-            "link": "https://galaxyquestgame.com/",
-            "imgsrc":"https://shorturl.at/BFOUW",
+            "description": "Thrifty: Simplifying online shopping with cross-site search, AI product suggestions, and price change alerts.",
+            "author": "Naufil Asar",
+            "link": "https://github.com/NaufilAsar/gpm-major-project",
+            "imgsrc":"https://shorturl.at/koqHW",
             "year":"2023",
             "majorProject" : false
         },
@@ -159,11 +161,21 @@
           },
           {
             "id": 11,
+            "type": "Web Application",
+            "project_name": "Chattos",
+            "tech_stack": ["Node.js", "Mongodb", "Socket.io", "EJS"],
+            "description": "Chattos is an online chatting web app that allows users to chat anonymously and securely.",
+            "author": "Deep Bansode",
+            "link": "https://github.com/DrasticCoder/chattos",
+            "imgsrc": "https://i.ibb.co/DW2DjQ3/chattos.png",
+            "year": "2022",
+            "majorProject": false
+          },
+            {
+             "id": 12,
             "type": "game",
             "project_name": "Animal on Vehicle",
-            "tech_stack": [
-                "Python"
-            ],
+            "tech_stack": ["Python"],
             "description": "Animal On Vehicle – A Racer Game is a Panda3D game designed using different modules and frameworks of Python",
             "author": "Jayesh Wani, Harsh Kanse, Tushar Khandare, Harsh Pol, Eshaan Dhuru",
             "link": "https://github.com/Jayesh421/Animal_On_Vehicle",
@@ -171,6 +183,7 @@
             "year":"2023",
              "majorProject":true
             },
+
     ]
 
 

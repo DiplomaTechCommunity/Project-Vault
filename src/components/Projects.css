@@ -1,6 +1,6 @@
 .tut-heading {
     text-align: center;
-    padding: 4rem 0 2ren 0;
+    padding: 2rem 0 0 0;
     background-color: #1c232b;
     font-weight: 800;
   }
@@ -15,6 +15,7 @@
     padding-bottom: 5rem;
     background-color: #1c232b;
     margin-top: 3rem;
+    z-index:0;
   }
 
   .description{
