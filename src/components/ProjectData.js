@@ -160,6 +160,18 @@
             "year": "2023",
             "majorProject": true
           },
+          {
+            "id": 11,
+            "type": "Web Application",
+            "project_name": "Chattos",
+            "tech_stack": ["Node.js", "Mongodb", "Socket.io", "EJS"],
+            "description": "Chattos is an online chatting web app that allows users to chat anonymously and securely.",
+            "author": "Deep Bansode",
+            "link": "https://github.com/DrasticCoder/chattos",
+            "imgsrc": "https://i.ibb.co/DW2DjQ3/chattos.png",
+            "year": "2022",
+            "majorProject": false
+          },
     ]
 
 
