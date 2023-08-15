@@ -26,3 +26,11 @@ To contribute your project, follow these steps:
 ```
 
 Make sure to fill in the corresponding details accurately for your project as this will help maintain consistency and organization within the repository.
+
+## Repo maintainers
+- [AlfiyaSiddique](https://github.com/AlfiyaSiddique)
+- [anaskhan28](https://github.com/anaskhan28)
+- [CODEX108](https://github.com/CODEX108)
+- [maaz25925](https://github.com/maaz25925)
+- [dhruvjaink07](https://github.com/dhruvjaink07)
+
