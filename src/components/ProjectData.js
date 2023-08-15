@@ -172,6 +172,18 @@
             "year": "2022",
             "majorProject": false
           },
+          {
+            "id": 12,
+            "type": "full stack",
+            "project_name": "Alpha Docs",
+            "tech_stack": ["React","Node.js", "Mongodb", "Socket.io"],
+            "description": "Alpha Docs is a collaborative document platform enabling users to create, edit, and share content seamlessly without the need for logins.",
+            "author": "Deep Bansode",
+            "link": "https://github.com/DrasticCoder/Alpha-Docs",
+            "imgsrc": "https://i.ibb.co/FVcpF3T/alpha-doc.png",
+            "year": "2022",
+            "majorProject": false
+          },
     ]
 
 
