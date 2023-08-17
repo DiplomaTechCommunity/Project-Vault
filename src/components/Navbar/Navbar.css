@@ -48,7 +48,8 @@ nav .menu {
     }
 }
 
-@media (max-width: 500px) {
+/* Burger Menu Chnages */
+@media (max-width: 600px) {
     nav .menu {
         display: flex;
     }
