@@ -1,0 +1,88 @@
+.body {
+  background: #1C232B;
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+}
+
+.title-emphasis, .sub-heading-emphasis {
+  color: #8D74EC;
+}
+
+.sub-heading {
+  display: flex;
+  /* width: 23.125rem; */
+  height: 2rem;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* flex-shrink: 0; */
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.025rem;
+}
+
+.box {
+  display: flex;
+  width: 31.4375rem;
+  height: 13rem;
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+}
+
+.purple-box {
+  border-radius: 0.6875rem;
+  background: #8D74EC;
+}
+
+.black-box {
+  border-radius: 0.6875rem;
+  background: rgba(45, 45, 45, 0.50);
+}
+
+.box-title {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.03125rem;
+}
+
+.box-icon {
+  width: 2.68439rem;
+  height: 2.37839rem;
+  fill: #FFF;
+  flex-shrink: 0;
+}
+
+.box-paragraph {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02375rem;
+  width: 25.25rem;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 5rem;
+}
