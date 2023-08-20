@@ -1,67 +1,76 @@
-import './WhyMatter.css';
+import "./WhyMatter.css";
 
 const WhyMatter = () => {
   return (
     <div>
       <div className="body">
         <div className="title">
-          Why does it <span className="title-emphasis">matter</span>?
+          Why does it <span className="emphasis">matter</span>?
         </div>
-        <div className="sub-heading">
-          Show your <span className="sub-heading-emphasis">awesome</span> work to others
+
+        <div className="subtitle">
+          Show your <span className="emphasis">awesome</span> work to others
         </div>
-        <div className="boxes">
-          <div className="box purple-box">
-            <div className="box-title">
-              Every Project Counts
+
+        <div className="grid-align">
+          <div className="grid-container">
+
+            <div className="grid-item top-left box-purple">
+              <div className="top-row">
+                <div className="box-title">
+                  Every Project Counts
+                </div>
+                <div className="box-icon">
+                  <img src="./src/components/Why-Matter/assets/GitHub-Icon.svg" alt="GitHub Icon" />
+                </div>
+              </div>
+              <div className="box-paragraph">
+                Whether you have a basic project or a complex one, you can contribute it proudly on Project Vault.
+              </div>
             </div>
-            <div className="box-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="43" height="42" viewBox="0 0 43 42" fill="none">
-                <path d="M21.4007 0C18.5903 0 15.8075 0.553545 13.211 1.62903C10.6145 2.70452 8.25536 4.28088 6.26812 6.26812C2.25471 10.2815 0 15.7249 0 21.4007C0 30.8598 6.142 38.8851 14.6381 41.7313C15.7081 41.9026 16.0505 41.2391 16.0505 40.6613C16.0505 40.1691 16.0505 38.8209 16.0505 37.0446C10.1225 38.3286 8.85989 34.1769 8.85989 34.1769C7.87545 31.6944 6.48441 31.031 6.48441 31.031C4.53695 29.7042 6.63421 29.747 6.63421 29.747C8.77428 29.8968 9.90852 31.9512 9.90852 31.9512C11.7704 35.2041 14.9163 34.2411 16.1361 33.7275C16.3287 32.3364 16.8851 31.3948 17.4844 30.8598C12.7334 30.3248 7.74705 28.4843 7.74705 20.3307C7.74705 17.9552 8.56028 16.0505 9.95132 14.5311C9.73732 13.9961 8.98829 11.7704 10.1653 8.88129C10.1653 8.88129 11.963 8.30347 16.0505 11.0642C17.7412 10.5933 19.5816 10.3579 21.4007 10.3579C23.2198 10.3579 25.0602 10.5933 26.7509 11.0642C30.8384 8.30347 32.6361 8.88129 32.6361 8.88129C33.8131 11.7704 33.0641 13.9961 32.8501 14.5311C34.2411 16.0505 35.0543 17.9552 35.0543 20.3307C35.0543 28.5057 30.0466 30.3034 25.2742 30.8384C26.0446 31.5018 26.7509 32.8073 26.7509 34.7975C26.7509 37.6652 26.7509 39.9765 26.7509 40.6613C26.7509 41.2391 27.0933 41.924 28.1847 41.7313C36.6808 38.8637 42.8014 30.8598 42.8014 21.4007C42.8014 18.5903 42.2478 15.8075 41.1724 13.211C40.0969 10.6145 38.5205 8.25536 36.5333 6.26812C34.546 4.28088 32.1868 2.70452 29.5904 1.62903C26.9939 0.553545 24.2111 0 21.4007 0Z" fill="white" />
-              </svg>
+
+            <div className="grid-item top-right box-dark">
+              <div className="top-row">
+                <div className="box-title">
+                  Open Source Journey
+                </div>
+                <div className="box-icon">
+                  <img src="./src/components/Why-Matter/assets/Open-Source-Icon.svg" alt="Open-Source Icon" />
+                </div>
+              </div>
+              <div className="box-paragraph">
+                Start your open source with this amazing opportunity and contribute your first pull request here.
+              </div>
             </div>
-            <div className="box-paragraph">
-              Whether you have a basic project or complex one. You can contribute your project proudly on Project Vault.
+
+            <div className="grid-item bottom-left box-dark">
+              <div className="top-row">
+                <div className="box-title">
+                  Need Inspiration
+                </div>
+                <div className="box-icon">
+                  <img src="./src/components/Why-Matter/assets/Angular-Brackets-Icon.svg" alt="Angular-Brackets Icon" />
+                </div>
+              </div>
+              <div className="box-paragraph">
+                Whether you have a basic project or a complex one, you can contribute it proudly on Project Vault.
+              </div>
             </div>
-          </div>
-          <div className="box black-box">
-            <div className="box-title">
-              Open Source Journey
+
+            <div className="grid-item box-purple">
+              <div className="top-row">
+                <div className="box-title">
+                  Share with others
+                </div>
+                <div className="box-icon">
+                  <img src="./src/components/Why-Matter/assets/Share-Icon.svg" alt="Share Icon" />
+                </div>
+              </div>
+              <div className="box-paragraph">
+                After finding such an amazing platform, don&apos;t just keep it to yourself. Share with your friends and let them be a part of it.
+              </div>
             </div>
-            <div className="box-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="42" height="41" viewBox="0 0 42 41" fill="none">
-                <path d="M28.1674 40.6527C28.0415 40.6527 27.8946 40.6527 27.7687 40.6527C27.5169 40.5478 27.3071 40.3379 27.2232 40.0861L22.5648 27.9156C22.3759 27.412 22.6277 26.8454 23.1104 26.6356C24.6002 26.09 25.7963 24.915 26.4258 23.5091C27.7687 20.5084 26.4258 17.0041 23.4251 15.6612C20.4245 14.3182 16.9202 15.6612 15.5772 18.6199C14.9477 20.1097 14.9058 21.7674 15.4723 23.2153C16.1018 24.7681 17.3399 25.9641 18.9136 26.5517C19.4172 26.7405 19.69 27.3071 19.5012 27.8317L14.7169 40.0022C14.633 40.254 14.4441 40.4638 14.1923 40.5687C13.9405 40.6527 13.6677 40.6527 13.4369 40.5687C2.63034 36.393 -2.76245 24.2435 1.41329 13.4369C5.58903 2.63034 17.7386 -2.76245 28.5451 1.41329C33.7281 3.42772 37.9038 7.39362 40.17 12.4717C42.4573 17.5707 42.6042 23.3412 40.5897 28.5241C38.4704 34.1058 34.0848 38.5543 28.5241 40.6527C28.3563 40.6527 28.2933 40.6527 28.1674 40.6527ZM21.012 2.02182C10.5831 1.74903 1.9169 9.99559 1.64411 20.4245C1.45526 28.2304 6.07165 35.3438 13.29 38.3445L17.2559 28.0625C13.4159 25.9641 11.9681 21.1799 14.0454 17.3399C16.1228 13.4999 20.9281 12.073 24.7681 14.1294C28.6081 16.2067 30.0559 21.012 27.9786 24.852C27.2441 26.2159 26.132 27.3281 24.7681 28.0625L28.734 38.4074C33.3084 36.351 36.8966 32.595 38.7222 27.9156C42.5832 18.2212 37.8828 7.24674 28.1884 3.36477C25.9012 2.46247 23.4671 2.00083 21.012 2.02182Z" fill="white" />
-              </svg>
-            </div>
-            <div className="box-paragraph">
-              Start your open source journey with this amazing opportunity and contribute your first pull request here.
-            </div>
-          </div>
-          <div className="box black-box">
-            <div className="box-title">
-              Need Inspiration
-            </div>
-            <div className="box-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="43" height="26" viewBox="0 0 43 26" fill="none">
-                <path d="M27.09 22.79L36.98 12.9L27.09 3.01L30.1 0L43 12.9L30.1 25.8L27.09 22.79ZM15.91 22.79L6.02 12.9L15.91 3.01L12.9 0L0 12.9L12.9 25.8L15.91 22.79Z" fill="white" />
-              </svg>
-            </div>
-            <div className="box-paragraph">
-              You can check out various projects and can filter out if you want to build something similar and rock the world.
-            </div>
-          </div>
-          <div className="box purple-box">
-            <div className="box-title">
-              Share with others
-            </div>
-            <div className="box-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
-                <path d="M33 29.48C31.6067 29.48 30.36 30.03 29.4067 30.8917L16.335 23.2834C16.4267 22.8617 16.5 22.44 16.5 22C16.5 21.56 16.4267 21.1384 16.335 20.7167L29.26 13.1817C30.25 14.0984 31.5517 14.6667 33 14.6667C36.0433 14.6667 38.5 12.21 38.5 9.16669C38.5 6.12335 36.0433 3.66669 33 3.66669C29.9567 3.66669 27.5 6.12335 27.5 9.16669C27.5 9.60669 27.5733 10.0284 27.665 10.45L14.74 17.985C13.75 17.0684 12.4483 16.5 11 16.5C7.95667 16.5 5.5 18.9567 5.5 22C5.5 25.0434 7.95667 27.5 11 27.5C12.4483 27.5 13.75 26.9317 14.74 26.015L27.7933 33.6234C27.7017 34.0084 27.6467 34.4117 27.6467 34.8334C27.6467 37.785 30.0483 40.1684 33 40.1684C35.9517 40.1684 38.3533 37.785 38.3533 34.8334C38.3533 31.8817 35.9517 29.48 33 29.48ZM33 7.33335C34.0083 7.33335 34.8333 8.15835 34.8333 9.16669C34.8333 10.175 34.0083 11 33 11C31.9917 11 31.1667 10.175 31.1667 9.16669C31.1667 8.15835 31.9917 7.33335 33 7.33335ZM11 23.8334C9.99167 23.8334 9.16667 23.0084 9.16667 22C9.16667 20.9917 9.99167 20.1667 11 20.1667C12.0083 20.1667 12.8333 20.9917 12.8333 22C12.8333 23.0084 12.0083 23.8334 11 23.8334ZM33 36.6667C31.9917 36.6667 31.1667 35.8417 31.1667 34.8334C31.1667 33.825 31.9917 33 33 33C34.0083 33 34.8333 33.825 34.8333 34.8334C34.8333 35.8417 34.0083 36.6667 33 36.6667Z" fill="white" />
-              </svg>
-            </div>
-            <div className="box-paragraph">
-              After finding such a amazing platform, don&apos;t just keep it with yourself share with your friends and let them be a part of it.
-            </div>
+
           </div>
         </div>
       </div>

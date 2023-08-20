@@ -7,82 +7,98 @@
   text-align: center;
   font-family: Poppins;
   font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.0625rem;
 }
 
-.title-emphasis, .sub-heading-emphasis {
+.emphasis {
   color: #8D74EC;
 }
 
-.sub-heading {
-  display: flex;
-  /* width: 23.125rem; */
-  height: 2rem;
-  /* flex-direction: column; */
-  justify-content: center;
-  /* flex-shrink: 0; */
+.subtitle {
   color: #FFF;
   font-family: Poppins;
   font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.025rem;
+  height: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.box {
+.grid-align {
   display: flex;
-  width: 31.4375rem;
-  height: 13rem;
-  flex-shrink: 0;
-  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 75%;
+  margin: 0 auto;
 }
 
-.purple-box {
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.grid-item {
+  padding: 0.5rem;
   border-radius: 0.6875rem;
+}
+
+.top-left {
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.box-purple {
   background: #8D74EC;
 }
 
-.black-box {
-  border-radius: 0.6875rem;
-  background: rgba(45, 45, 45, 0.50);
+.top-row {
+  position: relative;
+  padding: 1.55rem;
 }
 
 .box-title {
   color: #FFF;
   font-family: Poppins;
   font-size: 1.5625rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
   letter-spacing: 0.03125rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
 }
 
 .box-icon {
-  width: 2.68439rem;
-  height: 2.37839rem;
   fill: #FFF;
-  flex-shrink: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .box-paragraph {
+  padding: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
   color: #FFF;
-  font-family: Poppins;
-  font-size: 1.1875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.02375rem;
   width: 25.25rem;
 }
 
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: auto;
-  padding: 5rem;
+.top-right {
+  margin-left: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.box-dark {
+  background: #2D2D2D80;
+}
+
+.bottom-left {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.bottom-right {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
 }
