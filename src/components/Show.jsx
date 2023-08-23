@@ -4,6 +4,7 @@ import "./Projects.css";
 import Hero from './Hero';
 import { useState } from 'react';
 import { FaSearch } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import "./Show.css";
 
 const Show = () => {
@@ -33,6 +34,7 @@ const Show = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
+        <Link to="/home" className='nav'>Home</Link>
       </div>
 
       <Hero/>
