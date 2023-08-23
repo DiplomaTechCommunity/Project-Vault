@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router';
 import './App.css';
 import Show from './components/Show';
-import Navbar from './components/Navbar/Navabr';
+import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     // Add the components in respective routes
