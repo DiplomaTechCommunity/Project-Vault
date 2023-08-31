@@ -6,11 +6,7 @@ function App() {
 
 
   return (
-
-    <>
-     <Show/>
-    </>
-
+  
     // Add the components in respective routes
     <Routes>
     <Route path="/" element={<Show/>}></Route>
@@ -19,7 +15,6 @@ function App() {
     <Route path="/contribute" element={<Navbar/>}></Route>
     <Route path="/github" element={<Navbar/>}></Route>
     </Routes>
-
   )
 }
 
