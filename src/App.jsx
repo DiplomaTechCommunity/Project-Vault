@@ -6,6 +6,7 @@ function App() {
 
 
   return (
+  
     // Add the components in respective routes
     <Routes>
     <Route path="/" element={<Show/>}></Route>
