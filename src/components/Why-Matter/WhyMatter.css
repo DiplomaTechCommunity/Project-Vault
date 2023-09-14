@@ -1,0 +1,104 @@
+.body {
+  background: #1C232B;
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3.125rem;
+  letter-spacing: 0.0625rem;
+}
+
+.emphasis {
+  color: #8D74EC;
+}
+
+.subtitle {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  letter-spacing: 0.025rem;
+  height: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.grid-item {
+  padding: 0.5rem;
+  border-radius: 0.6875rem;
+}
+
+.top-left {
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.box-purple {
+  background: #8D74EC;
+}
+
+.top-row {
+  position: relative;
+  padding: 1.55rem;
+}
+
+.box-title {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  letter-spacing: 0.03125rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
+}
+
+.box-icon {
+  fill: #FFF;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box-paragraph {
+  padding: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #FFF;
+  width: 25.25rem;
+}
+
+.top-right {
+  margin-left: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.box-dark {
+  background: #2D2D2D80;
+}
+
+.bottom-left {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.bottom-right {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}

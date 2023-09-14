@@ -15,7 +15,7 @@ const Show = () => {
     keys.some((key) =>
       Array.isArray(item[key])
         ? item[key].some((data) => data.toLowerCase().includes(searchQuery.toLowerCase()))
-        : item[key].toLowerCase().includes(searchQuery.toLowerCase())
+        : item[key].toLowerCase().replace(/\s+/g, '').includes(searchQuery.toLowerCase().replace(/\s+/g, ''))
     )
   );
   
