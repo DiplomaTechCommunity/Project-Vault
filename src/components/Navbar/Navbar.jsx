@@ -31,7 +31,7 @@ function Navbar() {
      
         <nav id="Navbar">
           <h1>
-            Project <span className="highlight">Vault</span>
+            <a href="https://projectvault.vercel.app/">Project <span className="highlight">Vault</span></a>
           </h1>
             {menuOpen? <FaTimes className="menu" onClick={()=>setMenuOpen(!menuOpen)}/>  :<FaBars className="menu" onClick={()=>setMenuOpen(!menuOpen)}/>}
            
