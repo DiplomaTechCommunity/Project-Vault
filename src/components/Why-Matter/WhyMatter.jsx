@@ -1,4 +1,8 @@
 import "./WhyMatter.css";
+import AngularBracketsIcon from "/assets/WhyMatter/Angular-Brackets-Icon.svg";
+import GitHubIcon from "/assets/WhyMatter/GitHub-Icon.svg";
+import OpenSourceIcon from "/assets/WhyMatter/Open-Source-Icon.svg";
+import ShareIcon from "/assets/WhyMatter/Share-Icon.svg";
 
 const WhyMatter = () => {
   return (
@@ -21,7 +25,7 @@ const WhyMatter = () => {
                   Every Project Counts
                 </div>
                 <div className="box-icon">
-                  <img src="./src/components/Why-Matter/assets/GitHub-Icon.svg" alt="GitHub Icon" />
+                  <img src={GitHubIcon} alt="GitHub Icon" />
                 </div>
               </div>
               <div className="box-paragraph">
@@ -35,7 +39,7 @@ const WhyMatter = () => {
                   Open Source Journey
                 </div>
                 <div className="box-icon">
-                  <img src="./src/components/Why-Matter/assets/Open-Source-Icon.svg" alt="Open-Source Icon" />
+                  <img src={OpenSourceIcon} alt="Open-Source Icon" />
                 </div>
               </div>
               <div className="box-paragraph">
@@ -49,7 +53,7 @@ const WhyMatter = () => {
                   Need Inspiration
                 </div>
                 <div className="box-icon">
-                  <img src="./src/components/Why-Matter/assets/Angular-Brackets-Icon.svg" alt="Angular-Brackets Icon" />
+                  <img src={AngularBracketsIcon} alt="Angular-Brackets Icon" />
                 </div>
               </div>
               <div className="box-paragraph">
@@ -63,7 +67,7 @@ const WhyMatter = () => {
                   Share with others
                 </div>
                 <div className="box-icon">
-                  <img src="./src/components/Why-Matter/assets/Share-Icon.svg" alt="Share Icon" />
+                  <img src={ShareIcon} alt="Share Icon" />
                 </div>
               </div>
               <div className="box-paragraph">
