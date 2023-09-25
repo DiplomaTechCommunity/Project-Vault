@@ -3,10 +3,10 @@ import WhyMatter from "../Why-Matter/WhyMatter";
 
 function Home() {
   return (
-    <>
+    <div id="mainpage">
       <Navbar />
       <WhyMatter />
-    </>
+    </div>
   );
 }
 
