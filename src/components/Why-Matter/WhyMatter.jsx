@@ -6,8 +6,8 @@ import ShareIcon from "/assets/WhyMatter/Share-Icon.svg";
 
 const WhyMatter = () => {
   return (
-    <div>
-      <div className="body">
+    <div id="matter">
+      <div>
         <div className="title">
           Why does it <span className="emphasis">matter</span>?
         </div>
@@ -15,8 +15,8 @@ const WhyMatter = () => {
         <div className="subtitle">
           Show your <span className="emphasis">awesome</span> work to others
         </div>
+        </div>
 
-        <div className="grid-align">
           <div className="grid-container">
 
             <div className="grid-item top-left box-purple">
@@ -76,8 +76,6 @@ const WhyMatter = () => {
             </div>
 
           </div>
-        </div>
-      </div>
     </div>
   );
 }
