@@ -1,5 +1,5 @@
-.body {
-  background: #1C232B;
+#matter{
+  margin: 4rem 1rem;
 }
 
 .title {
@@ -24,25 +24,25 @@
   margin-bottom: 2rem;
 }
 
-.grid-align {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 75vh;
-  width: 75%;
-  margin: 0 auto;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 6rem;
+  padding: 2rem;
+  grid-gap: 1.5rem
 }
 
 .grid-item {
   padding: 0.5rem;
   border-radius: 0.6875rem;
+  width: 100%;
 }
 
 .top-left {
@@ -56,7 +56,7 @@
 
 .top-row {
   position: relative;
-  padding: 1.55rem;
+  padding: .5rem;
 }
 
 .box-title {
@@ -64,24 +64,19 @@
   font-family: Poppins;
   font-size: 1.5625rem;
   letter-spacing: 0.03125rem;
-  position: absolute;
-  left: 1rem;
-  bottom: 0;
 }
 
 .box-icon {
   fill: #FFF;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  top: 20px;
+  right: 10px;
 }
 
 .box-paragraph {
-  padding: 1rem;
-  text-align: justify;
-  text-justify: inter-word;
+  padding: 1rem ;
   color: #FFF;
-  width: 25.25rem;
+  width: 80%;
 }
 
 .top-right {
@@ -101,4 +96,41 @@
 .bottom-right {
   margin-right: 0.5rem;
   margin-top: 0.25rem;
+}
+
+/* Mobile */
+@media (max-width: 960px) {
+  .grid-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  #box3{
+    order: 2;
+  }
+
+  #box4{
+    order: 1;
+  }
+
+}
+
+@media (max-width: 540px) {
+ .box-icon{
+  position: relative;
+  top: 0;
+  width: 40px;
+  margin:auto;
+  margin-top: 10px;
+ }
+
+ .grid-container{
+  text-align: center;
+  padding: 0;
+ }
+
+ .box-paragraph{
+  margin: auto;
+  width: 95%;
+ }
 }

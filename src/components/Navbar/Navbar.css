@@ -31,8 +31,8 @@ nav ul li a {
 nav .menu {
     display: none;
     position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
+    top: 1.75rem;
+    right: 1.75rem;
     flex-direction: column;
     justify-content: space-between;
     width: 2.25rem;
