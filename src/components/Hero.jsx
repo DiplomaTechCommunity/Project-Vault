@@ -2,7 +2,7 @@ import "./Projects.css";
 
 const Hero = () => {
   return (
-    <div>
+    <div id="welcomeSection">
         <div className='tut-heading'>
         <h3>Project Vault</h3>
         <p>Sharing knowledge today, inspiring creators tomorrow. 🌟</p>

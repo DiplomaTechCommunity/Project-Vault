@@ -105,6 +105,14 @@
     grid-template-rows: repeat(4, 1fr);
   }
 
+  #box3{
+    order: 2;
+  }
+
+  #box4{
+    order: 1;
+  }
+
 }
 
 @media (max-width: 540px) {
